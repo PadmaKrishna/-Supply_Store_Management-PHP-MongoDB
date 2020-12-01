@@ -1,0 +1,289 @@
+db.sales.insert({
+  "shop_name": "PADDU - Ganesh Electronics",
+  "storeLocation":"Jalahalli",
+  "electronics":[
+					{
+					"Mobile":[		{
+									"brand":"XIOMI",                      
+									"name":"Redmi Note 7",
+									"ram":"4gb",
+									"price":15000,
+									"qty":240
+									},
+									{
+									"brand":"LG",                              
+									"name":"V40 ThinQ",
+									"ram":"4gb",
+									"price":29990,
+									"qty":20
+									},
+									{
+									"brand":"OPPO",                           
+									"name":"F11",
+							    	"ram":"6gb",
+									"price":14990,
+									"qty":25
+									}
+							]
+					},
+					{
+					"TV":{
+						"LCD":[		{
+									"brand":"ONIDA",                             
+									"name":"Onida LCD TV",
+						  			"price":50000,
+						  			"qty":13							
+						  			},
+									{
+									"brand":"LG",                          
+									"name":"LG LCD TV",
+						  			"price":60000,
+						  			"qty":10								
+						  			}
+							 ],
+						"LED":[		{
+									"brand":"ONIDA",       
+									"name":"Onida LED TV",
+						  			"price":40000,
+						  			"qty":10			
+						  			},
+						  			{
+									"brand":"LG",                          
+									"name":"LG LED TV",
+						  			"price":70000,
+						  			"qty":30				
+						 	 		}		
+						 	 ],
+					{
+					"Laptop":[		{
+									"brand":"DELL",                               
+									"name":"Dell inspiron",
+									"processor":"intel i7",
+						  			"price":30000,
+						  			"qty":30					
+							 	   },	
+									{
+									"brand":"HP",   
+									"name":"HP Notebook",
+									"processor":"intel i5",
+						  			"price":40000,
+						  			"qty":30
+							  		},
+								{
+								"brand":"LENOVO",     
+								"name":"Lenovo Ideapad",
+						  		"processor":"AMD A8",
+						  		"price":70000,
+						  		"qty":30				
+								}
+							]
+  					}	
+  ]
+})
+
+
+
+db.sales.insert({
+  "shop_name": "PADDU - Mahesh Electronics",
+  "storeLocation":"Mathekere",
+  "electronics":[
+					{
+					"Mobile":[		{
+									"brand":"LENOVO",            
+									"name":"Lenovo Note 4",
+									"ram":"4gb",
+									"price":12000,
+									"qty":200
+									},
+									{
+									"brand":"REALMI",   
+									"name":"Realmi X2",
+									"ram":"4gb",
+									"price":19990,
+									"qty":40
+									},
+									{
+									"brand":"XIOMI",                  
+									"name":"Pocco",
+							    	"ram":"8gb",
+									"price":24990,
+									"qty":250
+									}
+							]
+					},
+					{
+					"TV":{
+						"LCD":[		{
+									"brand":"SAMSUNG",    
+									"name":"Samsung LCD TV",
+						  			"price":55000,
+						  			"qty":30							
+						  			},
+									{
+									"brand":"SANSUI",    
+									"name":"Sansui LCD TV",
+						  			"price":46000,
+						  			"qty":130								
+						  		 }
+							 ],
+						"LED":[{
+									"brand":"MICROMAX",    
+									"name":"Micromax LED TV",
+						  			"price":40000,
+						  			"qty":40			
+						  			},
+						  			{
+									"brand":"MI",               
+									"name":"Mi LED TV",
+						  			"price":65000,
+						  			"qty":430				
+						 	 	}		
+						 	 ],
+					{
+					"Laptop":[		{
+									"brand":"DELL",     
+									"name":"Dell Notebook",
+									"processor":"intel i5",
+						  			"price":60000,
+						  			"qty":300					
+							 	   },	
+									{
+									"brand":"HP",  
+									"name":"HP N series",
+									"processor":"intel i7",
+						  			"price":50000,
+						  			"qty":43
+							  	},
+								{
+								"brand":"LENOVO",               
+								"name":"Lenovo Ideapad 510",
+						  		"processor":"AMD A12",
+						  		"price":55000,
+						  		"qty":350				
+								}
+							]
+  					}	
+  ]
+})
+
+
+
+db.sales.insert({
+  "shop_name": "PADDU - Arun Electronics",
+  "storeLocation":"Malleshwaram",
+  "electronics":[
+					{
+					"Mobile":[		{
+									"brand":"APPLE",            
+									"name":"Iphone X",
+									"ram":"4gb",
+									"price":80000,
+									"qty":10
+									},
+									{
+									"brand":"NOKIA",   
+									"name":"Nokia M4",
+									"ram":"4gb",
+									"price":13990,
+									"qty":4
+									},
+									{
+									"brand":"LAVA",
+									"name":"Lava Iris",
+							    	"ram":"2gb",
+									"price":6000,
+									"qty":25
+									}
+							]
+					},
+					{
+					"TV":{
+						"LCD":[		{
+									"brand":"SONY", 
+									"name":"Sony LCD TV",
+						  			"price":75000,
+						  			"qty":10							
+						  			},
+									{
+									"brand":"VIDEOCON",
+									"name":"Videocon LCD TV",
+						  			"price":60000,
+						  			"qty":11								
+						  		 }
+							 ],
+						"LED":[		{
+									"brand":"SONY",    
+									"name":"Sony LED TV",
+						  			"price":11000,
+						  			"qty":43			
+						  			},
+						  			{
+									"brand":"SAMSUNG", 
+									"name":"Samsung LED TV",
+						  			"price":50000,
+						  			"qty":33				
+						 	 	}			
+						 	 ],
+					{
+					"Laptop":[		{
+									"brand":"APPLE",  
+									"name":"Apple Notebook pro",
+									"processor":"intel i9",
+						  			"price":12000,
+						  			"qty":3					
+							 	   },	
+									{
+									"brand":"DELL",    
+									"name":"Dell pro series",
+									"processor":"AMD A3",
+						  			"price":23000,
+						  			"qty":3
+							  	},
+								{
+							    	"brand":"HP",            
+							    	"name":"HP pro",
+						  	    	"processor":"AMD A8",
+						  	    	"price":25000,
+						  	    	"qty":31				
+								}
+							]
+  					}	
+  ]
+  
+})
+
+db.sales.update({"storeLocation":"Jalahalli"},
+   {$addToSet: {
+        "electronics.0.Mobile" : {
+                    "brand":"LAVA",
+					"name" : "Lava Iris",
+					"ram" : "2gb",
+					"price" : 6000,
+					"qty" : 25
+				}
+    }})
+    
+    db.sales.update({"storeLocation":"Jalahalli","electronics.0.Mobile.brand":"LAVA"},
+   {$set: {
+        "electronics.0.Mobile.$" : {
+                    "brand":"LAVA",
+					"name" : "Lava Iris",
+					"ram" : "2gb",
+					"price" : 10000,
+					"qty" : 25
+				}
+    }})
+    
+  db.sales.update({"storeLocation":"Jalahalli","electronics.0.Mobile.brand":"LAVA"},
+   {$pull: {
+        "electronics.0.Mobile" : {
+                    "brand":"LAVA"
+				}
+    }})
+     
+    db.sales.find()
+    
+    db.sales.aggregate([{$match:{"electronics.0.Mobile.brand":"XIOMI"}},{$group:{"_id":"brand"}})
+     db
+
+db.sales.drop()
